@@ -9,8 +9,6 @@ frontend/build/
 backend/dist/
 
 # ── Environment / secrets (NEVER commit real credentials) ─────
-.env
-.env.local
 .env.*.local
 # .env.example IS committed intentionally
 
@@ -69,3 +67,4 @@ override.tf.json
 *_override.tf.json
 crash.log
 crash.*.log
+config.bat
