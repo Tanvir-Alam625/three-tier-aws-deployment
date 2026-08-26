@@ -125,7 +125,7 @@ export default function MeasurementForm({ onSaved }) {
       </div>
 
       <button type="submit" disabled={loading}>
-        {loading ? 'Saving...' : 'Save Measurement'}
+        {loading ? 'Saving...' : 'Add Measurement'}
       </button>
     </form>
   );
