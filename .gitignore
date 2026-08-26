@@ -9,8 +9,6 @@ frontend/build/
 backend/dist/
 
 # ── Environment / secrets (NEVER commit real credentials) ─────
-.env
-.env.local
 .env.*.local
 # .env.example IS committed intentionally
 
@@ -31,7 +29,6 @@ desktop.ini
 *~
 
 # ── Editor directories ────────────────────────────────────────
-.vscode/
 .idea/
 *.suo
 *.ntvs*
@@ -69,3 +66,4 @@ override.tf.json
 *_override.tf.json
 crash.log
 crash.*.log
+config.bat
